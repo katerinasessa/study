@@ -1,0 +1,12 @@
+./node_modules/.bin/cypress open
+
+npx cypress open //open cypress
+
+npm run start //start app locally
+npx create-react-app my-app //create an app
+cd my-app //go to folder
+https://github.com/facebook/create-react-app#creating-an-app
+
+cy.get('selector').as('somevariablename') //set selector value as variable
+
+cy.get('@somevariablename') //use variable
