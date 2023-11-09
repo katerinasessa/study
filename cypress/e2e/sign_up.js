@@ -30,7 +30,7 @@ describe("Test a registration form", () => {
             });            
             
             it.only("Uncheck the marketing checkbox", () => {
-//
+
                 cy.get('[class=auth-main__container] > div.ant-row.ant-row-center > div.ant-col.ant-col-24.ant-col-md-23.ant-col-lg-16 > div > form > div > div:nth-child(6) > div > label > span > input').uncheck();
      //          cy.get('#__next > div > div.auth-main > div > div.auth-main__container > div.ant-row.ant-row-center > div.ant-col.ant-col-24.ant-col-md-23.ant-col-lg-16 > div > form > div > div:nth-child(6) > div > label').should('have.class', 'ant-checkbox-wrapper')
             });
