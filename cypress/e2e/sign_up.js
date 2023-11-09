@@ -177,6 +177,6 @@ describe("Test a registration form", () => {
                 cy.get(':nth-child(5) > .ant-row > .ant-form-item-control > .ant-form-item-explain > .ant-form-item-explain-error > .main-input__message').should("exist").contains("Password must be equal or less than 72 characters");
             });         
             
-        })
+        });
     })
 })
